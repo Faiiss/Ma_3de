@@ -8,6 +8,7 @@ div{
     padding: 2rem;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 strong{
     color: red;
