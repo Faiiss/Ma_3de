@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Webpack",
+      "description": "Webpack is a powerful and widely-used open-source build tool and module bundler in the JavaScript ecosystem. It plays a crucial role in simplifying the development and deployment of modern web applications.",
+      "image": "https://i.pinimg.com/originals/94/db/71/94db717b4b24fb4f300d41a9630bb236.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Babel",
+      "description": "Babel is a popular open-source JavaScript compiler that empowers developers to write code using the latest ECMAScript features and syntax, ensuring compatibility across various web browsers and environments. It plays a critical role in modern web development by transpiling cutting-edge JavaScript code into versions that can run on older browsers or environments.",
+      "image": "https://www.thebestsocial.media/wp-content/uploads/sites/2/2016/09/bAEcgxl.jpg"
+    },
+    {
+      "id": 3,
+      "title": "NPM",
+      "description": "npm, which stands for Node Package Manager, is a fundamental tool in the JavaScript ecosystem that simplifies the management and distribution of JavaScript libraries, frameworks, and code packages. It is widely used by developers to access, share, and publish packages, enhancing the efficiency and reliability of modern web development.",
+      "image": "https://primary.jwwb.nl/public/7/0/6/dierenenoerdieren/tijger.large.jpg"
+    },
+    {
+      "id": 4,
+      "title": "JSX",
+      "description": "JSX, or JavaScript XML, is a powerful and transformative syntax extension for JavaScript, primarily used in conjunction with React.js. JSX enables developers to express user interfaces and component structures in a more intuitive and declarative manner.",
+      "image": "https://dierenplaatjes-en-praatjes.clubs.nl/afbeeldingen/imagebox_large/25373335/Eekhoorntjes.jpg"
+    }
+  ]
+  

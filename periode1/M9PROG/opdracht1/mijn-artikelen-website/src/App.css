@@ -1,0 +1,30 @@
+/* App.css */
+.app {
+  text-align: center;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.article {
+  max-width: 300px;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.article img {
+  max-width: 100%;
+  height: auto;
+}

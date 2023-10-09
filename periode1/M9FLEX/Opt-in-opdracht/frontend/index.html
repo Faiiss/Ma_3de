@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Newsletter Signup</title>
+</head>
+<body>
+  <section class="form-container">
+    <form id="subscription-form">
+      <input type="email" id="email" placeholder="Email Address" required>
+      <label for="type1"><input type="checkbox" id="type1" name="subscription[]" value="type1"> Newsletter Type 1</label>
+      <label for="type2"><input type="checkbox" id="type2" name="subscription[]" value="type2"> Newsletter Type 2</label>
+      <button type="submit">Subscribe</button>
+    </form>
+    <span class="message success">Subscription successful!</span>
+    <span class="message error">Error: Invalid email address.</span>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

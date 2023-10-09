@@ -1,0 +1,120 @@
+.PokemonInfoBG {
+    position: absolute;
+    width: 30rem;
+    top: 50%;
+    left: 50%; 
+    z-index: -1;
+    transform: translate(-50%, -50%); 
+  }
+  
+  .PokemonInfoBG > img {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+  .pokemon-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+  .pokemon-img{
+    height: 13rem;
+  }
+  .pokemon-name{
+    font-size: 2rem;
+    margin: 0;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+  }
+  .pokemon-title{
+    font-size: 2rem;
+    margin: 0;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+  }
+  .pokemon-id{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  button{
+    margin-top: 1rem;
+    padding: .8rem 1.5rem .8rem 1.5rem;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background: #f2c73d;
+    color: #2c2c2c;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  button:hover{
+    background: #fff;
+    color: #d7253d;
+  }
+
+  @media (max-width: 768px){
+    .PokemonInfoBG {
+        position: absolute;
+        width: 25rem;
+        top: 50%;
+        left: 50%; 
+        z-index: -1;
+        transform: translate(-50%, -50%); 
+      }
+      
+      .PokemonInfoBG > img {
+        width: 75%;
+        height: auto;
+        z-index: -1;
+      }
+      .pokemon-img {
+        height: 10rem;
+    }
+    button {
+        margin-top: 1rem;
+        padding: 0.8rem 1rem 0.8rem 1rem;
+        border: none;
+        font-size: 0.9rem;
+        border-radius: 1rem;
+        background: #f2c73d;
+        color: #2c2c2c;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.2s ease;
+    }
+    .pokemon-id {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+    .pokemon-title {
+        font-size: 1.7rem;
+        margin: 0;
+        color: #fff;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-top: 1rem;
+    }
+    .pokemon-name {
+        font-size: 1.4rem;
+        margin: 0;
+        color: #fff;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-top: 1rem;
+    }
+  }
