@@ -36,14 +36,25 @@ function PokemonInfo() {
               src={pokemonData.sprites.front_default}
               alt={pokemonData.name}
             />
-            {/* Display other Pokémon info here */}
+            <div className="PokeInfo">
+              <p className="pokemon-type">
+                Type: {pokemonData.types[0].type.name}
+              </p>
+              <p className="pokemon-height">
+                Height: {pokemonData.height} cm
+              </p>
+              <p className="pokemon-weight">
+                Weight: {pokemonData.weight} kg
+              </p>
+            </div>
+
           </div>
         ) : (
           <div>
             <h3 className="pokemon-name">Who's that pokémon?</h3>
             <img
               className="pokemon-img"
-              src={pokeBgImage} 
+              src={pokeBgImage}
               alt="Placeholder"
             />
           </div>

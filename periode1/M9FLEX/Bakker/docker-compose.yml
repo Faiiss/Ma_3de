@@ -1,0 +1,30 @@
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ./public:/var/www/html
+    depends_on:
+      - db
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: bakkerww_2023
+      MYSQL_DATABASE: bakker_db
+    volumes:
+      - mysql_data:/var/lib/mysql   # Define a volume for MySQL data
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: db
+      PMA_ARBITRARY: 1
+
+volumes:
+  mysql_data:   # Define the volume for MySQL data

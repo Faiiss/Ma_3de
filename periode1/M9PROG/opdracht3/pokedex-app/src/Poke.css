@@ -65,7 +65,15 @@
     background: #fff;
     color: #d7253d;
   }
-
+  .PokeInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
   @media (max-width: 768px){
     .PokemonInfoBG {
         position: absolute;
